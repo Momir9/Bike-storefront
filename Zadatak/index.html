@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is reserved for the description to help with seo">
+    <title>Bike store</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-TA4+15kNGt1s/dX3wd4J4G+eT2TjTlTt1Sg8VYDk1+IH7VvG9X2W7srj0FohMkkB+HNZFGJwW8z4Us54hNNzag==" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@600&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&family=Inter:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="toggle-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+              
+            <div class="icon">
+                <h2 class="logo">LOGO</h2>
+            </div>            
+            
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Products</a></li>
+                    <!-- .li::after w-->
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" placeholder="Search">
+                <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+
+            <div class="symbols">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-heart"></i>
+                <img src="./images/cart.png" alt="shopping cart added 1 item">
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <ul class="p-bread">
+            <p>Home</p>
+            <i class="custom-btn-arrow fas fa-chevron-right"></i>
+            <p>Products</p>
+            <i class="custom-btn-arrow fas fa-chevron-right"></i>
+            <p>Bikes</p>
+            <i class="custom-btn-arrow fas fa-chevron-right"></i>
+        </ul>
+
+        <div class="product-name">
+            <h1>Product name lorem ipsum</h1>
+        </div>
+
+        <div class="cont-symbols">
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-right"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fas fa-share-nodes"></i>
+            <!-- <i class="fa-light fa-arrow-left"></i> and <i class="fa-light fa-arrow-right"></i> match the Figma design, needed to use the free 5.15.3 alternative instead-->
+        </div>
+
+        <div class="circle-left">
+            <i class="custom-btn-arrow fas fa-chevron-left"></i>
+        </div>
+        <div class="circle-right">
+            <i class="custom-btn-arrow fas fa-chevron-right"></i>
+        </div>
+        <div class="p-img">
+            <img src="./images/bike.png" alt="black-bike">
+        </div>
+
+        <div class="order-form">
+            <p class="stock">In stock <span style=color:#FE5E41;>- only 2 left</span></p>
+            <p class="desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillium dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labourm.
+            </p>
+            <div class="custom-btn">
+                <div class="custom-btn-model">Model</div>
+                <div class="custom-btn-text">Gents - Medium</div>
+                <i class="custom-btn-arrow fas fa-chevron-down"></i>
+            </div>
+
+            <div class="custom-btn-r">
+                <div class="custom-btn-color-r">Color</div>
+                <div class="custom-btn-text-r">Black</div>
+                <i class="custom-btn-arrow fas fa-chevron-down"></i>
+            </div>
+                
+            <div class="dropdown-right"></div>
+
+            <div class="checkbox">
+                <form action="checkbox" class="form-check">
+                    <input type="checkbox" id="option1" name="option1">
+                    <label for="option1">Add option lorem ipsum</label><br>
+                    <input type="checkbox" id="option2" name="option2">
+                    <label for="option2">Add option autpat velit cano totam rem aperiam</label>
+                </form>
+                <button class="add-cart"><a href="#">Add to cart</a></button>
+                <button class="contact"><a href="#">Contact us</a></button>
+            </div>
+        </div>
+
+        <div class="product-desc">
+            <ul>
+                <li><a href="#">Description</a></li>
+                <li><a href="#">Specifications</a></li>
+                <li><a href="#">Reviews (7)</a></li>
+            </ul>
+        </div>
+        <hr class="hr">
+
+        <h2 class="pr-desc">Product description</h2>
+
+        <p class="pr-desc-txt">Lorem ipsum dolor sit amet, consectetur adipscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerciation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillium dolore eu fugiat nulla pariatur.<br><br>
+            
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labourm. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+
+        <div class="bikes">
+            <img src="./images/bikes.png" alt="bikes-on-the-street">
+        </div>
+
+        <button class="more-info"><a href="#">More info</a></button>
+
+        <div class="specifications">
+            <h2 class="specs">Technical specifications</h2>
+
+            <table class="spec-sheet">
+                <tr>
+                  <th>Model</th>
+                  <th>Frame Size</th>
+                  <th>Weight</th>
+                  <th>Max speed</th>
+                  <th>Battery</th>
+                  <th>Engine</th>
+                </tr>
+                <tr>
+                  <td>Ladies - Small</td>
+                  <td>50cm</td>
+                  <td>24kg</td>
+                  <td>45 km/h</td>
+                  <td>625 Wh</td>
+                  <td>Bosch Performance Line Speed</td>
+                </tr>
+                <tr>
+                  <td>Ladies - Medium</td>
+                  <td>55cm</td>
+                  <td>25kg</td>
+                  <td>45 km/h</td>
+                  <td>625 Wh</td>
+                  <td>Bosch Performance Line Speed</td>
+                </tr>
+                <tr>
+                  <td>Ladies - Large</td>
+                  <td>60cm</td>
+                  <td>26kg</td>
+                  <td>45 km/h</td>
+                  <td>625 Wh</td>
+                  <td>Bosch Performance Line Speed</td>
+                </tr>
+                <tr>
+                  <td>Gents - Small</td>
+                  <td>50cm</td>
+                  <td>24kg</td>
+                  <td>45 km/h</td>
+                  <td>625 Wh</td>
+                  <td>Bosch Performance Line Speed</td>
+                </tr>
+                <tr>
+                  <td>Gents - Medium</td>
+                  <td>55cm</td>
+                  <td>25kg</td>
+                  <td>45 km/h</td>
+                  <td>625 Wh</td>
+                  <td>Bosch Performance Line Speed</td>
+                </tr>
+                <tr>
+                  <td>Gents - Large</td>
+                  <td>60cm</td>
+                  <td>26kg</td>
+                  <td>45 km/h</td>
+                  <td>625 Wh</td>
+                  <td>Bosch Performance Line Speed</td>
+                </tr>
+              </table>
+            
+        </div>
+    </div>
+
+    <div id="lightbox">
+        <div class="contact-form">
+            <i class="fa-solid fa-xmark"></i>
+          <h2>Contact us</h2>
+          <p class="soon">We'll get back to you as soon as possible.</p>
+          <form>
+            <input type="text" id="e-mail" placeholder="  Your e-mail"><br><br>
+            <input type="text" id="message" placeholder="  Your message"><br><br>
+          </form>
+          <button id="cancel-button">Cancel</button>
+          <button id="sendmessage">Send message</button>
+        </div>
+      </div>
+
+</body>
+</html>
